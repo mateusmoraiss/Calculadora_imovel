@@ -12,10 +12,10 @@ function calcularPreco() {
   }
   
   // Calcular o preço baseado nos valores do formulário
-  let preco = 100000;
-  preco += tamanho * 1000;
+  let preco = 70000;
+  preco += tamanho * 850;
   preco += quartos * 5000;
-  preco += banheiros * 3000;
+  preco += banheiros * 2000;
   if (localizacao === 1) {
     preco *= 1.05; // Santa Maria, Gama e Samambaia (+5%)
   } else if (localizacao === 2) {
