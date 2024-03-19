@@ -12,7 +12,7 @@ function calcularPreco() {
   }
   
   // Calcular o preço baseado nos valores do formulário
-  let preco = 50000;
+  let preco = 25000;
   preco += tamanho * 850;
   preco += quartos * 5000;
   preco += banheiros * 2000;
